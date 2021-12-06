@@ -1,3 +1,3 @@
 export const welcome=(req,res)=>{
-    res.send("welcome to server cors package added")
+    res.send("welcome to server cors package added mongoose added")
 }
