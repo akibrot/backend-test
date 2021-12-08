@@ -1,7 +1,8 @@
 import express from "express";
-import { welcome } from "../controller/controllers.js";
+import { data, welcome } from "../controller/controllers.js";
 const router = express.Router();
 
 router.get("/", welcome);
+router.get("/data",data)
 
 export default router;
